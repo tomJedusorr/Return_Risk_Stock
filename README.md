@@ -15,12 +15,12 @@ interval = 'Y'
 ```
 With these information, you are ready to use the function
 
-Let's see the output
-
 ```python
 extract_financial_metrics(ticker, start_date, end_date, interval)
-
 ```
+
+Let's see the output
+
 ```
 >>> Ticker: AMZN
 

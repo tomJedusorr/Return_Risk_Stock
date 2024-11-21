@@ -1,4 +1,4 @@
-# Example Usage
+# Historical Metrics
 Say you need to get quick information about a stock, but you don't want to store them in a CSV file or whatever.
 
 With this function, "extract_financial_metrics", you just need to provide the "ticker" of the stock, the "start_date, the "end_date" and the "Interval"

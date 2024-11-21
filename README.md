@@ -1,26 +1,24 @@
 # Historical Metrics
 Say you need to get quick information about a stock, but you don't want to store them in a CSV file or whatever.
 
-With this function, "extract_financial_metrics", you just need to provide the "ticker" of the stock, the "start_date, the "end_date" and the "Interval"
+With this function, "extract_financial_metrics", you just need to provide the "ticker" of the stock, the "start_date", the "end_date" and the "interval"
 
-Let's say you interested about Amazon.Inc
-
-You want to analyze for a period of 20 years
-
-In a Yearly basis
+- Let's say you interested about Amazon.Inc
+- You want to analyze for a period of 20 years
+- In a Yearly basis
 
 ```python
 ticker = 'AMZN'
 start_date = '2004-01-01'
 end_date = '2024-01-01'
-Interval = 'Y'
+interval = 'Y'
 ```
 With these information, you are ready to use the function
 
 Let's see the output
 
 ```python
-extract_financial_metrics(ticker, start_date, end_date, Interval)
+extract_financial_metrics(ticker, start_date, end_date, interval)
 
 ```
 ```
